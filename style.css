@@ -1,0 +1,327 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+
+
+.coverimg{
+
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(./image/image1.png);
+    width: 100%;
+    height: 120vh;
+    
+ 
+
+}
+
+.box1{
+
+
+    
+
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ position: absolute;
+ top: 60%;
+ left: 50%;
+ flex-direction: column;
+ transform: translate(-50%,-60%);
+ font-family: sans-serif;
+ font-size: large;
+
+}
+
+.bcoverimg h1{
+
+    color: whitesmoke;
+    /* letter-spacing: 3px; */
+}
+
+.bcoverimg h1 span{
+
+    color: rgb(35, 189, 81);
+    font-family: sans-serif;
+
+}
+
+
+.bcoverimg h2 {
+
+    color: whitesmoke;
+    font-size: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+
+.bcoverimg h2 span{
+
+    color:rgb(35, 189, 81);
+}
+
+.bcoverimg p{
+
+    color: whitesmoke;
+    text-align: center;
+    margin-bottom: 5%;
+
+}
+
+
+
+.img{
+    width: 25px;
+    filter: invert(100%);
+    padding: 15px;
+}
+
+.navbar{
+
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    height: auto;
+    align-items: center;
+    border-bottom: 4px double lightgrey;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1
+
+
+
+}
+
+.navbar h1{
+
+    width: 262px;
+    font-family: sans-serif;
+    font-size: 20px;
+
+}
+
+.navbar h1 span{
+
+    color: rgb(35, 189, 81);
+}
+
+.box3{
+
+    width: 400px;
+}
+
+.box3 ul{
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+
+}
+
+
+.box3 li{
+
+    width: 80px;
+    height: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    margin: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #282828;
+    list-style: none;
+}
+
+
+.box5{
+color: aliceblue;
+    background-image: url(./image/new1.jpg);
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+.box5 h2{
+    
+    color: #e7e3e3;
+}
+
+
+.pop{
+
+
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+
+.img1{
+
+    width: 320px;
+    height: 300px;
+    
+    
+
+}
+.box6 li{
+    border-bottom: 1px solid lightgrey;
+    margin: 8px;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 8px;
+    list-style: none;
+
+    
+}
+
+.box7{
+    margin-top: 5%;
+    padding-left: 2%;
+    
+}
+
+.box7 h1{
+
+    font-family: sans-serif;
+    margin-bottom: 1%;
+    
+
+}
+
+.box7 p{
+
+    font-family: sans-serif;
+    font-size: 90%;
+}
+
+.box8 {
+
+    font-family: sans-serif;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.box9{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px 30px;
+}
+
+.box9 div{
+
+
+
+    border: 1px solid lightgray;
+    width: 260px;
+    margin: 10px 10px;
+    text-align: center
+
+}
+
+.box9 div p{
+
+
+    font-family: sans-serif;
+    padding: 1%;
+}
+ 
+
+a{
+
+    text-decoration: none;
+    color: #282828;
+}
+
+
+.box10{
+
+    background-image: url(./image/new2.jpg);
+    width: 100%;
+    color: aliceblue;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+.boxb{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+    
+}
+
+
+.boxb input{
+
+    width: 100%;
+    height: 20px;
+    outline: none;
+    border: 1px solid lightgray;
+    margin: 10px 0;
+    font-family: sans-serif;
+    padding: 5px;
+    font-size: medium;
+
+}
+
+.boxb textarea{
+
+    width: 100%;
+    margin: 10px 0;
+    font-family: sans-serif;
+    background-color: whitesmoke;
+    border: 1px solid lightgray;
+}
+
+.boxb button{
+
+
+    padding: 10px;
+    color: black;
+    cursor: pointer;
+}
+
+
+.box11{
+
+    margin-top: 10%;
+    background-color: #282828;
+    padding: 5%;
+}
+
+.box11 h1{
+
+
+    color: aliceblue;
+    margin-left: 30px;
+    font-size: 150%;
+}
+
+.boxt{
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
